@@ -1,0 +1,53 @@
+{
+  "name": "electron-forge-plugin-rspack",
+  "version": "1.0.2",
+  "description": "Webpack plugin for Electron Forge",
+  "main": "dist/rspackPlugin.js",
+  "types": "dist/rspackPlugin.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noshower/electron-forge-plugin-rspack.git"
+  },
+  "keywords": [
+    "electron",
+    "forge",
+    "plugin",
+    "rspack"
+  ],
+  "author": "noshower",
+  "bugs": {
+    "url": "https://github.com/noshower/electron-forge-plugin-rspack/issues"
+  },
+  "homepage": "https://github.com/noshower/electron-forge-plugin-rspack#readme",
+  "dependencies": {
+    "@electron-forge/core-utils": "7.2.0",
+    "@electron-forge/plugin-base": "7.2.0",
+    "@electron-forge/shared-types": "7.2.0",
+    "@electron-forge/web-multi-logger": "7.2.0",
+    "@rspack/core": "0.4.2",
+    "@rspack/dev-server": "0.4.2",
+    "debug": "^4.3.4",
+    "fs-extra": "^11.2.0",
+    "html-webpack-plugin": "^5.5.4",
+    "webpack-merge": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.12",
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">= 16.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
+}
