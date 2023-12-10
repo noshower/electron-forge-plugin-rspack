@@ -1,6 +1,6 @@
 {
   "name": "electron-forge-plugin-rspack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Webpack plugin for Electron Forge",
   "main": "dist/rspackPlugin.js",
   "types": "dist/rspackPlugin.d.ts",
