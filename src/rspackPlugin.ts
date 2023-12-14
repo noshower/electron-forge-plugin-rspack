@@ -426,6 +426,9 @@ the generated files). Instead, it is ${JSON.stringify(pj.main)}`);
         writeToDisk: true,
       },
       historyApiFallback: true,
+      client: {
+        overlay: false,
+      },
     };
     const overrides: Partial<RspackDevServer.Configuration> = {
       port: this.port,
