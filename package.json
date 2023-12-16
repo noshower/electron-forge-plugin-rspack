@@ -6,8 +6,7 @@
   "types": "dist/rspackPlugin.d.ts",
   "license": "MIT",
   "scripts": {
-    "prebuild": "rm -rf dist",
-    "build": "tsc"
+    "prepack": "rm -rf dist && tsc"
   },
   "repository": {
     "type": "git",
