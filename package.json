@@ -1,6 +1,6 @@
 {
   "name": "electron-forge-plugin-rspack",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Webpack plugin for Electron Forge",
   "main": "dist/rspackPlugin.js",
   "types": "dist/rspackPlugin.d.ts",
@@ -28,8 +28,8 @@
     "@electron-forge/plugin-base": "7.2.0",
     "@electron-forge/shared-types": "7.2.0",
     "@electron-forge/web-multi-logger": "7.2.0",
-    "@rspack/core": "0.4.2",
-    "@rspack/dev-server": "0.4.2",
+    "@rspack/core": "^1.0.1",
+    "@rspack/dev-server": "^1.0.1",
     "debug": "^4.3.4",
     "fs-extra": "^11.2.0",
     "html-webpack-plugin": "^5.5.4",

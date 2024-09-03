@@ -1,5 +1,7 @@
 # electron-forge-plugin-rspack
 
+# Support rspack 1.0
+
 > Transform and bundle code for your Electron Forge app with rspack.
 
 ## This project forked from [plugin-webpack](https://github.com/electron/forge/tree/main/packages/plugin/webpack), [document](https://www.electronforge.io/config/plugins/webpack#advanced-configuration)
